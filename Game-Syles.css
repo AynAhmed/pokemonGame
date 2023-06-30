@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  background-image: url("game-Bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center; /* Horizontally center the items */
+  align-items: center; /* Vertically center the items */
+  height: 100vh; /* Set height to 100% of viewport height */
+  flex-direction: column;
+   position: relative;
+}
+
+#game-play-status {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: auto;
+  /* margin-bottom: 100px; */
+  /* position: absolute;
+  bottom: 100px; */
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.caught-container {
+  background-color: #d67318;
+  /* margin-bottom: 40px; */
+}
+
+.timer-container {
+  background-color: #3071b2;
+  color:white;
+  /* margin-bottom: 50px; */
+}
+
+.caught-container {
+  margin-left: 20px;
+  color: white;
+  font-size: 18px;
+
+}
+
+
+#caughtNum,
+p#timer {
+color: white;
+font-size: 20px;
+}
+
+ 
+
+#dirt-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 65px;
+  width: 600px; /* Adjust the width as needed */
+  height: 600px; /* Adjust the height as needed */
+  
+
+}
+
+.dirt-tile {
+  background-image: url("Dirt_Texture.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 193px; /* Adjust the width to match the mole image dimensions */
+ height: 193px; 
+ border-radius: 8px;
+}
+
+
+button{
+  position: absolute;
+  font-size: 25px;
+  padding: 30px;
+  background-color: rgb(139, 4, 4);
+  border: 3px  solid none;
+  border-radius: 20px;
+  color: white;
+}
+
+
+ h1{
+  color: #ffee00;
+  position: absolute;
+  margin-left: 23rem;
+  font-size: 60px;
+  margin-bottom: 2.7rem;
+  align-self: flex-end;
+  text-shadow: 0 0 0.2em blue, 0 0 0.2em blue;
+  
+} 

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    cursor: url("new-cursor.png"), auto;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    /* cursor: url("new-cursor.png"), auto; */
+}
+
+h1{
+    color: #ffee00;
+    align-self: center;
+    position: absolute;
+    top: 5rem;
+    font-size: 60px;
+    text-shadow: 0 0 0.2em blue, 0 0 0.2em blue;
+}
+
+
+
+img{
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    position: absolute;
+    top: 12rem;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0); /* Initial and final position */
+    }
+    50% {
+      transform: translateY(-20px); /* Bounce height */
+    }
+  }
+
+button{
+    width: 10rem;
+    height: 30px;
+    border: 3px  solid rgb(0, 0, 255);
+    border-radius: 5px;
+    align-self: center;
+    position: absolute;
+    top: 30rem;
+    color: #ffee00;
+    text-shadow: 0 0 0.2em blue, 0 0 0.2em blue;
+    box-shadow:0 0 0.5em rgb(9, 119, 245), 0 0 0.5em blue;
+}
+button:hover {
+    width: 12.5rem;
+    height: 38.4px;
+    font-size: 17px;
+}
