@@ -14,7 +14,7 @@ Welcome to the Pokémon Mole Smash game!
 
 ## Game Preview
 
-![Game Preview](https://aynahmed.github.io/pokemonGame/)
+![Game Preview](game-preview.png)
 
 ## Getting Started
 
