@@ -4,7 +4,7 @@ function FirstPageClicked() {
 }
 
 // Redirect to game page when "GO" button is clicked
-function StartBtnClick() {
+function OnePlayerBtnClick() {
   window.location.href = "game.html";
 }
 
